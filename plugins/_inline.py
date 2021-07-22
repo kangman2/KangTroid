@@ -74,7 +74,7 @@ SUP_BUTTONS = [
 async def inline_alive(o):
     if len(o.text) == 0:
         b = o.builder
-        MSG = "• **Ultroid Userbot •**"
+        MSG = "• **Kanna Userbot •**"
         uptime = time_formatter((time.time() - start_time) * 1000)
         MSG += f"\n\n• **Uptime** - `{uptime}`\n"
         MSG += f"• **OWNER** - `{OWNER_NAME}`"
